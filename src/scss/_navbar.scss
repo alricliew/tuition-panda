@@ -1,0 +1,39 @@
+.navbar .nav-item .nav-link{
+  padding-right: 1.5rem !important;
+  &:hover,
+  &:focus{
+    color: $primary;
+  }
+}
+
+.navbar .nav-item .nav-link-button {
+  background-color: $primary;
+  border: solid $primary;
+  border-width: 2px;
+  // border-radius: 100px;
+  color: white;
+  padding-left: 2rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  padding-right: 2rem;
+  // font-weight: 600 !important;
+  transition: .2s ease-in-out 0s;
+
+  &:hover,
+  &:focus{
+    background-color: white;
+    border: solid $primary;
+    border-width: 2px;
+    color: $primary;
+    text-decoration: none;
+  }
+
+}
+
+.nav-link-footer{
+  color: white !important;
+  &:hover,
+  &:focus{
+    color: $primary-light !important;
+  }
+}

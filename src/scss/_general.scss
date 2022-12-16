@@ -1,0 +1,86 @@
+.h1-de{
+  font-size: calc(2rem + 1.5vw);
+  color: $primary-darker;
+}
+
+// Background
+.bg-primary-darker{
+  background: $primary-dark;
+}
+.bg-primary-darkerer{
+  background: $primary-darker;
+}
+.bg-primary-light{
+  background: $primary-light;
+}
+.bg-primary-lighter{
+  background: $primary-lighter;
+}
+
+.bg-header-home{
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('http://tuitionpanda.com/wp-content/uploads/2021/08/pretty-asian-teacher-smiling-camera-back-classroom-elementary-school-vintage-effect-style-pictures-1-1.jpg');
+}
+.bg-overlay-dark{
+  position: absolute; /* Sit on top of the page content */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.5); /* Black background with opacity */
+}
+
+.bg-overlay-white-green{
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #FFFFFF 0%, #A2E3D6 100%);
+}
+
+.bg-overlay-linear-160-green-black{
+  background-color: transparent;
+  background-image: linear-gradient(160deg, #168570 0%, #000000 100%);
+}
+
+.bg-custom-home-light-brown-with-img-overlay{
+  background: #F3F2ED;
+  background-image: url(http://tuitionpanda.com/wp-content/uploads/2021/08/book-pencil-2.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 220px auto;
+}
+
+.bg-custom-upper-footer-linear-110-dark-brown-green{
+  background-color: transparent;
+  background-image: linear-gradient(110deg, #444444 56%, #00493B 100%);
+  opacity: 1;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+// Wrapper - Sections
+.section-header-p{
+  padding: 100px 0 60px 0;
+}
+
+.section-default-p{
+  padding: 50px 0 50px 0;
+}
+
+.section-custom-about{
+  position:relative;
+  background-image: url('http://tuitionpanda.com/wp-content/uploads/2021/08/firmbee-com-gcsNOsPEXfs-unsplash.jpg');
+  background-attachment:fixed;
+  background-size: cover;
+}
+
+.section-custom-t-100-b-100{
+  padding: 100px 0 100px 0;
+}
+
+// Divider
+.divider-top{
+}
+.divider-separator{
+  border-top: 3px solid $primary;
+  display: block;
+}

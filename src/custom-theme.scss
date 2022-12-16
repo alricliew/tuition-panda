@@ -1,0 +1,55 @@
+// Import SCSS
+
+
+// Variables
+
+// Font
+$global-primary-font-family: 'Raleway';
+
+// Color
+$primary: #08ae8e !default; // Overide variable in bootstrap
+$primary-dark: #168570;
+$primary-darker: #036149;;
+$primary-light: #78d6c3;
+// $primary-light:  #08AE8E2B;
+$primary-lighter: #E8FFFA;
+
+
+// Pixel vars
+$pxl-1: 1px;
+$pxl-2: 2px;
+$pxl-3: 3px;
+$pxl-4: 4px;
+$pxl-5: 5px;
+$pxl-6: 6px;
+$pxl-7: 7px;
+$pxl-8: 8px;
+$pxl-9: 9px;
+$pxl-10: 10px;
+$pxl-20: 20px;
+$pxl-30: 30px;
+$pxl-40: 40px;
+$pxl-50: 50px;
+$pxl-60: 60px;
+$pxl-70: 70px;
+$pxl-80: 80px;
+$pxl-90: 90px;
+$pxl-100: 100px;
+$pxl-150: 150px;
+$pxl-200: 200px;
+$pxl-250: 250px;
+$pxl-300: 300px;
+
+html{
+  font-family: $global-primary-font-family
+}
+@import "scss/basic";
+@import "scss/components";
+@import "scss/form";
+@import "scss/general";
+@import "scss/navbar";
+@import "scss/utilities";
+@import "scss/widgets";
+
+// @import "bootstrap/dist/css/bootstrap.min.css"
+@import "../node_modules/bootstrap/scss/bootstrap"

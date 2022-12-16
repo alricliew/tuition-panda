@@ -1,0 +1,47 @@
+// Bootstrap Utilities extension
+
+// ----------------------- COLOR ------------------------ //
+// https://getbootstrap.com/docs/4.0/utilities/colors/
+.text-primary-dark{
+  color: $primary-dark
+}
+.text-primary-darker{
+  color: $primary-darker
+}
+.text-primary-light{
+  color: $primary-light
+}
+
+// ---------------------- SPACING ----------------------- //
+// https://getbootstrap.com/docs/5.2/utilities/spacing/
+.py-6{
+  padding-top: 4.5rem !important;
+  padding-bottom: 4.5rem !important;
+}
+.py-7{
+  padding-top: 6rem !important;
+  padding-bottom: 6rem !important;
+}
+
+// ------------------------ TEXT ------------------------ //
+// https://getbootstrap.com/docs/5.2/utilities/text/
+
+// Font size
+.fs-11{
+  font-size: calc(1.425rem + 1.8vw) !important
+}
+.fs-12{
+  font-size: calc(1.475rem + 2.1vw) !important
+}
+.fs-13{
+  font-size: calc(1.525rem + 2.3vw) !important
+}
+.fs-14{
+  font-size: calc(1.575rem + 2.5vw) !important
+}
+.fs-15{
+  font-size: calc(1.625rem + 3vw) !important
+}
+.fs-16{
+  font-size: calc(1.675rem + 3.5vw) !important
+}

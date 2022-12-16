@@ -1,0 +1,119 @@
+.form-req {
+  display: flex;
+  flex-direction: column;
+  --bg-opacity: 1;
+  background-color: #fff;
+  background-color: rgba(255,255,255,var(--bg-opacity));
+  border-width: 1px;
+  --border-opacity: 1;
+  border-color: #e5e7eb;
+  border-color: rgba(229,231,235,var(--border-opacity));
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 30%), 0 4px 6px -2px rgb(0 0 0 / 25%);
+  overflow: hidden;
+}
+
+.form-req-content {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.form-req-header {
+  align-items: center;
+  // padding: 1rem;
+  --bg-opacity: 1;
+  background-color: #f4f5f7;
+  background-color: rgba(244,245,247,var(--bg-opacity));
+  margin-top: auto;
+}
+
+.form-req-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1rem;
+  --bg-opacity: 1;
+  background-color: #f4f5f7;
+  background-color: rgba(244,245,247,var(--bg-opacity));
+  margin-top: auto;
+}
+
+.form-req-footer-order{
+  order: 1 !important;
+  width: 100%;
+}
+
+.form-req-btn {
+  transition: .2s;
+  display: inline-block;
+  font-size: .875rem;
+  font-weight: 700;
+  padding: 0.75rem 1rem;
+  background-color: transparent;
+  border-radius: 0.25rem;
+  -webkit-appearance: none;
+  appearance: none;
+  --border-opacity: 1;
+  border-color: #d2d6dc;
+  border-color: rgba(210,214,220,var(--border-opacity));
+}
+.form-req-btn.is-full{
+  display: block;
+  // width: 100%;
+}
+
+.form-req-btn.is-primary {
+  --bg-opacity: 1;
+  background-color: #3f83f8;
+  background-color: rgba(63,131,248,var(--bg-opacity));
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255,255,255,var(--text-opacity));
+  border-style: none;
+}
+
+.new-order-1{
+  order: 0;
+  width: auto;
+}
+
+.new-order-2{
+  order: 1;
+  width: auto;
+}
+.new-order-3{
+  order: 2;
+  width: auto;
+}
+
+
+@media (max-width: 600px){
+
+  .new-order-1{
+    order: 1;
+    width: auto;
+  }
+
+  .new-order-2{
+    order: 0 ;
+    width: 100%;
+  }
+  .new-order-3{
+    order: 2;
+    width: auto;
+  }
+}
+
+@media (min-width: 600px){
+  .form-req-footer-order{
+    order: 0 !important;
+    width: auto;
+  }
+  // .xs\:w-auto {
+  //   width: auto!important;
+  // }
+  // .xs\:order-none {
+  //   order: 0 !important;
+  // }
+
+}

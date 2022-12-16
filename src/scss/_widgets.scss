@@ -1,0 +1,45 @@
+
+// Widgets SCSS
+
+// Icon List
+.icon-list-item{
+  list-style: none;
+  font-size:20px;
+  justify-content:start;
+  align-items: center;
+  display:flex
+}
+
+.icon-list-item-link{
+  text-decoration: none;
+}
+
+.icon-list-item-icon{
+
+}
+
+.icon-list-item-text{
+  padding-left: 8px;
+  text-align: left;
+}
+
+// Icon Box
+
+.icon-box-top{
+  display: flex;
+  justify-content: start;
+}
+
+.icon-box-content{
+  text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+  .icon-box-top{
+    display: inline-block;
+    justify-content: center;
+  }
+  .icon-box-content{
+    text-align: center;
+  }
+}
